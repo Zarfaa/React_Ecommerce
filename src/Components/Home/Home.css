@@ -1,0 +1,32 @@
+.Services{
+  display: flex;
+  gap: 10%;
+  margin: 5%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5%;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Services div{
+  flex: 1;
+}
+
+
+.vertical_line::after {
+  content: "";
+  display: block;
+  height: 15%; /* Set the height to match the height of the container */
+  width: 2px; /* Adjust the width of the vertical line */
+  background-color: #e4e2e2; /* Change the line color */
+  margin-left: 16%; /* Adjust the spacing between the text and the line */
+  position: absolute;
+  transform: translateY(-80%); /* Center the line precisely */
+}
+
+
+
+
+
+

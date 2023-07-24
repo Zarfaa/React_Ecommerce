@@ -1,0 +1,56 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 70px;
+  }
+  
+  .Title{
+     text-align: center;
+     margin-bottom: 20px;
+  }
+
+  .Forget_password{
+   margin-left: 55%;
+   background-color: white;
+    color: rgb(205, 206, 205);
+    border: none;
+    cursor: pointer;
+  }
+
+  .ContentBorder {
+    border: 2px solid rgb(205, 206, 205);
+    padding: 35px;
+  }
+  
+  .ContentBorder > div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .ContentBorder label {
+    min-width: 100px; 
+  }
+  
+  .ContentBorder input,
+  .ContentBorder select {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .button {
+    background-color: black;
+    padding: 20px 60px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button:hover{
+    color :rgb(65, 179, 84);
+    border: 1px solid rgb(65, 179, 84);
+  }
+

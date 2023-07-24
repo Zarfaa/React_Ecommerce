@@ -1,0 +1,55 @@
+/* Signup.css */
+
+.account_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+}
+
+.Title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ContentBorder {
+  border: 2px solid rgb(205, 206, 205);
+  padding: 5%;
+}
+
+#login {
+  color: rgb(185, 190, 185);
+}
+
+.form_group {
+  display: flex;
+  align-items: center;
+}
+
+.form_group label {
+  min-width: 100px;
+}
+
+.form_group input,
+.form_group select {
+  flex: 1;
+  padding: 1%;
+}
+
+.radio_group {
+  display: flex;
+  gap: 10px;
+}
+
+.button_container button {
+  background-color:  black;
+  padding: 10px 40px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.button_container button:hover {
+  color: white;
+}
