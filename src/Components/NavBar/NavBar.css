@@ -3,8 +3,8 @@
     padding: 20px;
     justify-content: space-evenly;
     display :flex;
-    color:white;
     width: 100%; 
+
   }
   
   .nav_logo{
@@ -16,36 +16,36 @@
   
   .nav_items{
     display: flex;
-    gap: 25px;
+    gap:25px;
   }
   
-  #text{
-    color: white;
-  }
+  
   .nav_btn{
     display: flex;
-    gap: 50px;
+    gap:25px;
   }
   
-  .login{
-    border: solid rgb(65, 179, 84) 2px;
-    padding: 5px 15px;
-    border-radius: 25px;
+.nav_items div,
+.nav_btn div {
     color: white;
-  }
-  
-  .signup{
-    color:white
-  }
-  
-   .login:hover {
-    border:none;
-    color: rgb(65, 179, 84);
-    background-color: white;
-  }
-  
-  .nav_container a{
-    text-decoration: none;
+}
+
+  @media screen and (max-width: 600px) {
+    .nav_items{
+      display: flex;
+      gap: 5px;
+      font-size:small;
+    }
+
+    .nav_container {
+      max-width: 100%;
+    }
+     
+    .nav_logo,
+    .nav_items div,
+.nav_btn div {
+   font-size: smaller
+}
   }
   
   

@@ -52,10 +52,10 @@ const CategoryComponent = () => {
           <button onClick={() => setSelectedCategory('all')}>All Products</button>
         </div>
         <div className="Category_Items">
-          <button onClick={() => setSelectedCategory("men's clothing")}>Men's Clothing</button>
+          <button onClick={() => setSelectedCategory("men's clothing")}>Men</button>
         </div>
         <div className="Category_Items">
-          <button onClick={() => setSelectedCategory("women's clothing")}>Women's Clothing</button>
+          <button onClick={() => setSelectedCategory("women's clothing")}>Women</button>
         </div>
         <div className="Category_Items">
           <button onClick={() => setSelectedCategory('electronics')}>Electronics</button>

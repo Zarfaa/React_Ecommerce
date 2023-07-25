@@ -9,32 +9,49 @@ let NavBar = () => {
     <nav>
   <div className="nav_container">
 
-  <div>
-  <Link  to="/" className="nav_logo">Fashion</Link>
+  <Link  to="/" >
+  <div className="nav_logo">
+  Fashion
   </div>
+  </Link>
 
   <div className="nav_items">
+
+  <Link  to="/"> 
+   <div>Home </div>
+  </Link>
+
+  <Link  to="/AboutUS">
   <div>
-  <Link  id = "text" to="/">Home</Link> 
+  About Us
   </div>
+  </Link>
+
+  <Link  to="/ContactUS">
   <div>
-  <Link id = "text" to="/AboutUS">About Us</Link>
+  Contact Us
   </div>
-  <div>
-  <Link id = "text" to="/ContactUS">Contact Us</Link>
+  </Link>
+
   </div>
-  </div>
+
 
   <div className="nav_btn">
 
-  <div className="dropdown">
-  <Link  className="signup" to="/signup"><i class="uil uil-user"></i>SignUP</Link>
+  <Link  className="signup_btn" to="/signup">
+  <div >
+  <i class="uil uil-user"></i>SignUP
   </div>
-  <div className="dropdown">
-  <Link id = "text" to="/cart" ><i class="uil uil-shopping-bag"></i>Cart ({state.length}) </Link>
+  </Link>
+
+  <Link className="cart_btn"  to="/cart" >
+  <div >
+  <i class="uil uil-shopping-bag"></i>Cart ({state.length}) 
   </div>
+  </Link>
   
   </div>
+
   </div>
 </nav>
  )

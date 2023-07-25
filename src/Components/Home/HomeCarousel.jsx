@@ -13,14 +13,14 @@ const Carousel = () => {
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active ">
+      <div class="carousel-item  ">
         <img src={Img1} class="d-block w-100" alt="Men Collection "/>
         <div class="carousel-caption text-start" >
           <h5>Men Collection</h5>
           <p>New Arrival</p>
         </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item active">
         <img src={Img2} class="d-block w-100" alt="Women Collection "/>
         <div class="carousel-caption text-start">
           <h5>Women Collection 2023</h5>
