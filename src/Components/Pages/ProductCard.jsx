@@ -25,10 +25,14 @@ const CategoryComponent = () => {
     const fetchCategoryData = async (category, setData) => {
       try {
         const response = await fetch(`https://fakestoreapi.com/products/category/${category}`);
+        if (!response.ok) {
+          throw new Error(`Failed to fetch ${category} data. Status: ${response.status}`);
+        }
         const data = await response.json();
         setData(data);
       } catch (error) {
         console.error(`Error fetching ${category} data:`, error);
+        setData([]);
       }
     };
 

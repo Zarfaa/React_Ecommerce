@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../Footer/Footer";
-import NavBar from "../NavBar/NavBar";
 import { useSelector, useDispatch } from "react-redux";
 import { addCart, delCart } from "../../redux/action";
 import { Link } from "react-router-dom";
@@ -64,7 +63,6 @@ const Cart = () => {
                               >
                                 <img
                                   src={item.image}
-                                  // className="w-100"
                                   alt={item.title}
                                   width={100}
                                   height={75}
@@ -76,8 +74,6 @@ const Cart = () => {
                               <p>
                                 <strong>{item.title}</strong>
                               </p>
-                              {/* <p>Color: blue</p>
-                              <p>Size: M</p> */}
                             </div>
 
                             <div className="col-lg-4 col-md-6">
@@ -91,7 +87,7 @@ const Cart = () => {
                                     removeItem(item);
                                   }}
                                 >
-                                 <i class="uil uil-minus"></i>
+                                  <i class="uil uil-minus"></i>
                                 </button>
 
                                 <p className="mx-5">{item.qty}</p>
@@ -169,7 +165,7 @@ const Cart = () => {
         <hr />
         {state.length > 0 ? <ShowCart /> : <EmptyCart />}
       </div>
-      <Footer />
+      <Footer/>
     </>
   );
 };

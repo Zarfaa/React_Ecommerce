@@ -1,6 +1,6 @@
 import React from 'react';
 import "./App.css"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Provider } from 'react-redux';
 import store from './redux/store';
 import Navbar from "./Components/NavBar/NavBar"
@@ -15,7 +15,7 @@ import ContactPage from './Components/Pages/ContactPage';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
       <Provider store={store}>
         <Navbar />
         <Routes>
@@ -29,7 +29,7 @@ function App() {
           <Route path="/ContactUS" element={<ContactPage/>}></Route>
         </Routes>
         </Provider>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }

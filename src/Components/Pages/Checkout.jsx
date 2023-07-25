@@ -210,7 +210,7 @@ const Checkout = () => {
                     </div>
 
                     <button
-                      className="w-100 btn btn-primary "
+                      className="w-100 btn btn-dark "
                       type="submit" disabled
                     >
                       Continue to checkout
