@@ -1,44 +1,38 @@
-/* Signup.css */
-
-.account_Container {
+.Form_Container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5%;
+  border: 2px solid rgb(209, 206, 206);
+  width: 25%;
+  margin: 0% 40%;
+  padding: 1% 0%;
 }
 
-.Title {
+.Form_Text{
+  margin: 0% 40%;
+  margin-top: 5%;
+}
+
+.Form_Container h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.ContentBorder {
-  border: 2px solid rgb(205, 206, 205);
-  padding: 5%;
+.Fields{
+  margin: 10px;
+}
+
+
+#gender{
+  margin-right: 15px;
+}
+
+#genderMale{
+  margin-right: 10px;
 }
 
 #login {
   color: rgb(185, 190, 185);
-}
-
-.form_group {
-  display: flex;
-  align-items: center;
-}
-
-.form_group label {
-  min-width: 100px;
-}
-
-.form_group input,
-.form_group select {
-  flex: 1;
-  padding: 1%;
-}
-
-.radio_group {
-  display: flex;
-  gap: 10px;
 }
 
 .button_container button {
@@ -53,3 +47,61 @@
 .button_container button:hover {
   color: white;
 }
+
+
+@media screen and (max-width: 425px) {
+  .Form_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(209, 206, 206);
+    width: 70%;
+    margin: 0% 20%;
+    padding: 1% 0%;
+  }
+  
+  .Form_Text{
+    margin: 0% 20%;
+    margin-top: 10%;
+  }
+  #gender{
+    margin-right: 10px;
+  }
+  
+  #genderMale{
+    margin-right: 5px;
+  }
+
+  .Fields{
+    margin: 5px;
+  }
+}
+
+@media screen and (width: 768px) {
+  .Form_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(209, 206, 206);
+    width: 50%;
+    margin: 0% 25%;
+    padding: 1% 0%;
+  }
+  
+  .Form_Text{
+    margin: 0% 25%;
+    margin-top: 10%;
+  }
+  #gender{
+    margin-right: 10px;
+  }
+  
+  #genderMale{
+    margin-right: 5px;
+  }
+
+  .Fields{
+    margin: 5px;
+  }
+}
+

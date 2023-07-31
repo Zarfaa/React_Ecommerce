@@ -46,4 +46,49 @@
     border-radius: 25px;
     background-color: black;
   }
+
+
+  @media screen and (max-width: 425px) {
+
+    .Product-card{
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+        padding: 5%;
+        margin: 5%;
+    }
+   
+    .Product-Img img{
+        width: 70px;
+    }
+    #Product-description{
+        word-wrap: break-word;
+        font-size: 5px
+    }
+    
+
+    .Product-Details h2{
+       font-size: 5px;
+    }
+
+  }
+  
+  @media screen and (max-width: 768px) {
+
+  
+    #Product-description{
+        word-wrap: break-word;
+        font-size: 15px;
+    }
+    
+    .Product-Details{
+        flex: 1;
+        margin-left: 10%;
+    }
+
+    .Product-Details h2{
+       font-size: 20px;
+    }
+
+  }
   

@@ -6,6 +6,7 @@
       padding: 2% ;
       text-align: center;
       flex-direction: column;
+      bottom: 0
     }
     
     .Footer__container p {
@@ -30,4 +31,7 @@
     .Footer__container nav ul li a:hover {
       text-decoration: underline;
     }
+
+
+ 
     

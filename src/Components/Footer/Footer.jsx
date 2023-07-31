@@ -3,8 +3,8 @@ import "./footer.css"
 
 let Footer = () =>{
     return(
-    <footer >
       <div className="Footer__container">
+
     <div>
     <nav>
       <ul>
@@ -14,11 +14,13 @@ let Footer = () =>{
       </ul>
     </nav>
     </div>
+
     <div>
     <p>&copy; 2023 Fashion, Inc. All rights reserved.</p>
     </div>
+
     </div>
-  </footer>)
+  )
 }
 
 export default Footer
