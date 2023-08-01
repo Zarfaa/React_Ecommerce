@@ -1,3 +1,9 @@
+.home_container{
+  overflow-x: hidden;
+  max-width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
 .Services{
   display: flex;
   gap: 10%;
@@ -25,10 +31,21 @@
   transform: translateY(-80%);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 425px) {
 
   .Services h4{
     font-size: 10px;
+  }
+  
+  .vertical_line::after {
+    content: "";
+    display: block;
+    height: 10%; 
+    width: 2px; 
+    background-color: #e4e2e2; 
+    margin-left: 16%; 
+    position: absolute;
+    transform: translateY(-100%);
   }
   
 }

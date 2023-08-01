@@ -6,7 +6,7 @@ import Product from '../Pages/ProductCard';
 
 const Home = () => {
   return (
-    <>
+    <div className="home_container">
       <Carousel />
       <div className="Services">
       <div className="vertical_line"><i className="uil uil-truck"></i><h4>Smooth Delivery</h4></div>
@@ -16,7 +16,7 @@ const Home = () => {
     </div>
       <Product />
       <Footer />
-    </>
+    </div>
   );
 };
 

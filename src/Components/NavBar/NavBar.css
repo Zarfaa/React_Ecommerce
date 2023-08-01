@@ -1,9 +1,10 @@
 .nav_container {
     background-color: black;
-    padding: 20px;
     justify-content: space-evenly;
     display :flex;
     width: 100%; 
+    padding: 1rem; 
+  flex-wrap: wrap;
   }
   
   .nav_logo{
@@ -16,6 +17,7 @@
   .nav_items{
     display: flex;
     gap:25px;
+    flex-wrap: wrap;
   }
   
   
@@ -27,6 +29,7 @@
 .nav_items div,
 .nav_btn div {
     color: white;
+    white-space: nowrap;
 }
 
   @media screen and (max-width: 425px) {
