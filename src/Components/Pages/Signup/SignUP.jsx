@@ -1,8 +1,10 @@
+import Footer from "../../Footer/Footer"
 import "./Signup.css"
 import { Link } from "react-router-dom"
 
 let Signup = () => {
     return( 
+      <>
         <form >
         <p className="Form_Text">Already Have an account?
           <Link to="/login" id="login">Login</Link></p>
@@ -61,6 +63,8 @@ let Signup = () => {
 
     </div>
 </form>
+<Footer/>
+</>
     )
 }
 

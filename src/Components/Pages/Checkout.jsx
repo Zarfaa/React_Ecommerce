@@ -202,10 +202,10 @@ const Checkout = () => {
 
                     <h4 className="mb-3">Payment</h4>
                     <div className="col-md-3 my-1">
-                      <input type="radio" id="COD" value="option1" />
+                      <input type="radio" id="COD" value="option1" name="payment" />
                       <label for="option1">Cash On Delivery</label>
                          <br/>
-                      <input type="radio" id="Card" value="option2" />
+                      <input type="radio" id="Card" value="option2" name="payment" />
                       <label for="option2">Card</label>
                     </div>
 

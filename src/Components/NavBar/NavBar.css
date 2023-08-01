@@ -56,5 +56,36 @@
 }
 
   }
+
+  @media screen and (min-width: 1440px) {
+    .nav_items{
+      display: flex;
+      gap: 30px;
+      justify-content: space-between;
+    }
+    
+    .nav_container {
+      background-color: black;
+      justify-content: space-evenly;
+      display :flex;
+      width: 100%; 
+      padding: 30px; 
+    }
+
+    .nav_logo,
+    .nav_items,
+    .nav_btn  {
+      font-size: 25px;
+}
+.nav_btn{
+  display: flex;
+  gap:10px;
+}
+   
+.nav_btn{
+  display: flex;
+  gap: 50px;
+}
+  }
   
   

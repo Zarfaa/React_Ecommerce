@@ -1,8 +1,10 @@
+import Footer from "../../Footer/Footer"
 import "./Login.css"
 
 
 let Login = () => {
     return( 
+        <>
         <form >
 
         <div className="Login_Container">
@@ -35,6 +37,8 @@ let Login = () => {
 
     </div>
 </form>
+<Footer/>
+</>
     )
 }
 
