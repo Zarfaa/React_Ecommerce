@@ -1,44 +1,50 @@
-.Footer__container{
-      background-color:black;
-      color: #fdf8f8;
-      display: flex;
-      justify-content: space-between;
-      padding: 2% ;
-      text-align: center;
-      flex-direction: column;
-     
-      margin-top: 5%;
-    }
-    
-    .Footer__container p {
-      margin: 0;
-    }
-    
-    .Footer__container nav ul {
-      list-style: none;
-      padding: 0;
-    }
-    
-    .Footer__container nav ul li {
-      display: inline;
-      margin-right: 10px;
-    }
-    
-    .Footer__container nav ul li a {
-      color: #fdf8f8;
-      text-decoration: none;
-    }
-    
-    .Footer__container nav ul li a:hover {
-      text-decoration: underline;
-    }
+.Footer__container {
+  background-color: black;
+  color: #fdf8f8;
+  padding: 2%;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  margin-top: 5%;
+}
 
+.Footer__container p {
+  margin: 0;
+}
+
+.Footer__container nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Footer__container nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.Footer__container nav ul li a {
+  color: #fdf8f8;
+  text-decoration: none;
+}
+
+.Footer__container nav ul li a:hover {
+  text-decoration: underline;
+}
 
     @media screen and (min-width: 1440px) {
       .Footer__container{
         font-size: 30px;
       }
     }
-
+  
+    @media screen and  (width: 412px) {
+      .Footer__container {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+      }
+    }
+  
  
     

@@ -31,7 +31,7 @@
   transform: translateY(-80%);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 414px) {
 
   .Services h4{
     font-size: 10px;
@@ -45,10 +45,55 @@
     background-color: #e4e2e2; 
     margin-left: 16%; 
     position: absolute;
-    transform: translateY(-100%);
+    transform: translateY(-110%);
   }
   
 }
+
+@media screen and (max-width: 768px) {
+
+  .vertical_line::after {
+    content: "";
+    display: block;
+    height: 20%; 
+    width: 2px; 
+    background-color: #e4e2e2; 
+    margin-left: 16%; 
+    position: absolute;
+    transform: translateY(-90%);
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+
+  .vertical_line::after {
+    content: "";
+    display: block;
+    height: 5%; 
+    width: 2px; 
+    background-color: #e4e2e2; 
+    margin-left: 16%; 
+    position: absolute;
+    transform: translateY(-80%);
+  }
+}
+  @media screen and (max-width: 425px) {
+
+    .vertical_line::after {
+      content: "";
+      display: block;
+      height: 10%; 
+      width: 2px; 
+      background-color: #e4e2e2; 
+      margin-left: 16%; 
+      position: absolute;
+      transform: translateY(-120%);
+    }
+    
+}
+
+
 
 @media screen and (min-width: 1440px) {
   .Services h4{
@@ -58,12 +103,12 @@
   .vertical_line::after {
     content: "";
     display: block;
-    height: 40%; 
+    height: 30%; 
     width: 2px; 
     background-color: #e4e2e2; 
     margin-left: 16%; 
     position: absolute;
-    transform: translateY(-70%);
+    transform: translateY(-90%);
   }
   .Services{
     display: flex;

@@ -3,7 +3,7 @@ import "./footer.css"
 
 let Footer = () =>{
     return(
-      <div className="Footer__container">
+      <footer className="Footer__container">
 
     <div>
     <nav>
@@ -19,7 +19,7 @@ let Footer = () =>{
     <p>&copy; 2023 Fashion, Inc. All rights reserved.</p>
     </div>
 
-    </div>
+    </footer>
   )
 }
 
