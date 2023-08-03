@@ -4,26 +4,26 @@
     display :flex;
     width: 100%; 
     padding: 1rem; 
-  flex-wrap: wrap;
+    flex-wrap: wrap;
+    overflow: hidden;
   }
   
   .nav_logo{
     font-family: 'Seaweed Script', cursive;
-    font-weight: 700;
-    font-size: 20px;
+    font-size: 2vw;
     color: white;
   }
   
   .nav_items{
     display: flex;
-    gap:25px;
+    gap: 2vw;
     flex-wrap: wrap;
   }
   
   
   .nav_btn{
     display: flex;
-    gap:25px;
+    gap: 2vw;
   }
   
 .nav_items div,
@@ -35,14 +35,13 @@
   @media screen and (max-width: 425px) {
     .nav_items{
       display: flex;
-      gap: 5px;
+      gap: 10px;
       font-size:x-small;
       justify-content: space-between
     }
     
     .nav_container {
-      margin: 0;
-      padding: 10px; 
+      padding: 2vh; 
   
     }
     .nav_logo,
@@ -57,10 +56,12 @@
 
   }
 
+
+
   @media screen and (min-width: 1440px) {
     .nav_items{
       display: flex;
-      gap: 30px;
+      gap: 3vmax;
       justify-content: space-between;
     }
     
@@ -69,13 +70,15 @@
       justify-content: space-evenly;
       display :flex;
       width: 100%; 
-      padding: 30px; 
+      padding: 1rem; 
     }
 
-    .nav_logo,
+    .nav_logo{
+      font-weight: 100;
+    }
     .nav_items,
     .nav_btn  {
-      font-size: 25px;
+      font-size: 1.5vw;
 }
 .nav_btn{
   display: flex;
